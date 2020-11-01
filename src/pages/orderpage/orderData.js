@@ -66,37 +66,37 @@ const ORDER_DATA = [
       routeName: 'order/dtp',
       items: [
         {
-          id: 1,
+          id: 10,
           name: 'DTP USA',
           imageUrl: 'https://media.istockphoto.com/photos/vaccine-picture-id546805660',
           price: 220
         },
         {
-          id: 2,
+          id: 11,
           name: 'DTP UAE',
           imageUrl: 'https://media.istockphoto.com/photos/vaccine-picture-id547413270',
           price: 280
         },
         {
-          id: 3,
+          id: 12,
           name: 'DTP INDIA',
           imageUrl: 'https://image.shutterstock.com/z/stock-photo-dtp-diphtheria-tetanus-pertussis-vaccine-for-injection-384898699.jpg',
           price: 110
         },
         {
-          id: 4,
+          id: 13,
           name: 'DTP RUSSIA',
           imageUrl: 'https://media.istockphoto.com/photos/vaccine-picture-id588987218',
           price: 160
         },
         {
-          id: 5,
+          id: 14,
           name: 'DTP Australia',
           imageUrl: 'https://media.istockphoto.com/photos/doctor-fills-injection-syringe-with-vaccine-picture-id1205972800',
           price: 160
         },
         {
-          id: 6,
+          id: 15,
           name: 'DTP DENMARK',
           imageUrl: 'https://media.istockphoto.com/photos/the-doctor-prepares-the-syringe-for-vaccination-picture-id679524826',
           price: 160
@@ -109,25 +109,25 @@ const ORDER_DATA = [
       routeName: 'order/mmr',
       items: [
         {
-          id: 1,
+          id: 16,
           name: 'MMR INDIA',
           imageUrl: 'https://media.istockphoto.com/photos/measles-mumps-and-rubella-mmr-vaccine-vial-picture-id1211256727',
           price: 125
         },
         {
-          id: 2,
+          id: 17,
           name: 'MMR USA',
           imageUrl: 'https://media.istockphoto.com/photos/children-vaccine-for-prevention-of-viral-diseases-picture-id1126559054',
           price: 90
         },
         {
-          id: 3,
+          id: 18,
           name: 'MMR AUSTRALIA',
           imageUrl: 'https://media.istockphoto.com/photos/vaccine-holding-in-hand-with-injection-syringe-at-the-background-picture-id1126559052',
           price: 90
         },
         {
-          id: 4,
+          id: 19,
           name: 'MMR DENMARK',
           imageUrl: 'https://media.istockphoto.com/photos/concept-of-a-mmr-vaccine-for-measles-mumps-and-rubella-as-outbreaks-picture-id1148029631',
           price: 165
@@ -140,19 +140,19 @@ const ORDER_DATA = [
       routeName: 'order/rotavirus',
       items: [
         {
-          id: 1,
+          id: 20,
           name: 'Rotavirus INDIA',
           imageUrl: 'https://media.istockphoto.com/photos/rotavirus-vaccine-picture-id514169958',
           price: 25
         },
         {
-          id: 2,
+          id: 21,
           name: 'Rotavirus USA',
           imageUrl: 'https://media.istockphoto.com/photos/open-vial-rotavirus-vaccine-vial-on-white-background-picture-id1156023136',
           price: 20
         },
         {
-          id: 3,
+          id: 22,
           name: 'Rotavirus UAE',
           imageUrl: 'https://media.istockphoto.com/photos/rotavirus-vaccine-with-other-medicines-picture-id917896418',
           price: 80
@@ -165,31 +165,31 @@ const ORDER_DATA = [
       routeName: 'order/polio',
       items: [
         {
-          id: 1,
+          id: 23,
           name: 'Polio USA',
           imageUrl: 'https://media.istockphoto.com/photos/polio-vaccination-syringe-background-picture-id1140388724',
           price: 325
         },
         {
-          id: 2,
+          id: 24,
           name: 'Polio UAE',
           imageUrl: 'https://media.istockphoto.com/photos/polio-vaccination-picture-id586718854',
           price: 20
         },
         {
-          id: 3,
+          id: 25,
           name: 'Polio INDIA',
           imageUrl: 'https://media.istockphoto.com/photos/polio-picture-id1128161064',
           price: 25
         },
         {
-          id: 4,
+          id: 26,
           name: 'Polio AUSTRALIA',
           imageUrl: 'https://media.istockphoto.com/photos/polio-vaccine-picture-id508491372',
           price: 25
         },
         {
-          id: 5,
+          id: 27,
           name: 'Polio DENMARK',
           imageUrl: 'https://media.istockphoto.com/photos/polio-virus-picture-id959403016',
           price: 40
