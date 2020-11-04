@@ -1,5 +1,5 @@
-const ORDER_DATA = [
-    {
+const ORDER_DATA = {
+    covid :{
       id: 1,
       title: 'Covid',
       routeName: 'order/covid',
@@ -58,9 +58,9 @@ const ORDER_DATA = [
           imageUrl: 'https://media.istockphoto.com/photos/coronavirus-covid-19-vaccine-concept-small-glass-vials-with-blue-caps-picture-id1226912839',
           price: 16
         }
-      ]
+      ] 
     },
-    {
+    dtp: {
       id: 2,
       title: 'DTP',
       routeName: 'order/dtp',
@@ -103,7 +103,7 @@ const ORDER_DATA = [
         }      
       ]
     },
-    {
+    mmr: {
       id: 3,
       title: 'MMR',
       routeName: 'order/mmr',
@@ -134,7 +134,7 @@ const ORDER_DATA = [
         }
       ]
     },
-    {
+    rotavirus:{
       id: 4,
       title: 'Rotavirus',
       routeName: 'order/rotavirus',
@@ -159,7 +159,7 @@ const ORDER_DATA = [
         }
       ]
     },
-    {
+    polio:{
       id: 5,
       title: 'Polio',
       routeName: 'order/polio',
@@ -195,7 +195,7 @@ const ORDER_DATA = [
           price: 40
         }
       ]
-    }
-  ]
+    } 
+  }
 
   export default ORDER_DATA;

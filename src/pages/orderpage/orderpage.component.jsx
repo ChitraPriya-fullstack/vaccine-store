@@ -1,22 +1,15 @@
 import React from 'react';
-import SneakPeak from '../../components/sneakpeak/sneakpeak.component'
-import {createStructuredSelector} from 'reselect';
-import {connect} from 'react-redux';
-import { createStore } from 'redux';
-import { selectCollections } from '../../redux/order/order.selectors'
+import { Route } from 'react-router-dom';
 
-const OrderPage =  ({ collections }) => (
-        <div className='order-page'>
-            {
-                collections.map(({id, ...otherCollectionProps}) => (
-                <SneakPeak key={id} {...otherCollectionProps} />
-                ))
-            }
-        </div>
+import CollectionPage  from '../collectionPage/collectionPage.component' 
+import CollectionsOverview from '../../components/collections-overview/collections-overview.component'
+
+
+const OrderPage =  ({ match }) => (
+    <div className='order-page'>
+        <Route exact path= {`${match.path}`} component={CollectionsOverview}/>
+        <Route path={`${match.path}/:collectionId`} component={CollectionPage} />
+    </div>
 );
 
-const mapStateToProps = createStructuredSelector({
-    collections : selectCollections
-});
-
-export default connect(mapStateToProps)(OrderPage);
+export default OrderPage;

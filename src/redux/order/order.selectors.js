@@ -6,3 +6,13 @@ export const selectCollections  =  createSelector(
     [selectOrder],
     order => order.collections
 );
+
+export  const  selectCollection = (collectionUrlParam) => createSelector(
+    [selectCollections],
+    collections => collections[collectionUrlParam]
+);
+
+export const selectCollectionsForPreview = createSelector(
+    [selectCollections],
+    collections => Object.keys(collections).map(key => collections[key])
+);

@@ -13,6 +13,6 @@ const SneakPeak = ({title, items}) => (
         </div>
 
     </div>
-)
+);
 
 export default SneakPeak;
